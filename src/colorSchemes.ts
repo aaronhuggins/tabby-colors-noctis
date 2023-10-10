@@ -10,8 +10,7 @@ export class ColorSchemes extends TerminalColorSchemeProvider {
 
 		for (const filename of schemeContents.keys()) {
 			if (!filename.startsWith('./')) {
-				const contents = schemeContents(filename).default as string;
-				const scheme = JSON.parse(contents) as TerminalColorScheme;
+				const scheme = schemeContents(filename) as TerminalColorScheme;
 				schemes.push(scheme);
 			}
 		}

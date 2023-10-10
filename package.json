@@ -8,11 +8,11 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-		"build": "npm run build:schemes && npm run build:webpack",
+    "build": "npm run build:schemes && npm run build:webpack",
     "watch": "webpack --progress --color --watch",
     "prepublishOnly": "npm run build",
-		"build:schemes": "ts-node src/buildSchemes.ts",
-		"build:webpack": "webpack --progress --color"
+    "build:schemes": "ts-node src/buildSchemes.ts",
+    "build:webpack": "webpack --progress --color"
   },
   "files": [
     "dist"
@@ -28,6 +28,9 @@
   "devDependencies": {
     "@types/node": "^18.18.4",
     "@types/webpack-env": "^1.18.2",
-    "ts-node": "^10.9.1"
+    "ts-loader": "^9.5.0",
+    "ts-node": "^10.9.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
