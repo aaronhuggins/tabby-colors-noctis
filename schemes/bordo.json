@@ -1,0 +1,25 @@
+{
+	"name": "Noctis Bordo",
+	"foreground": "#f18eb0",
+	"background": "#322a2d",
+	"cursor": "#ffb3cd",
+	"colors": [
+		"#47393e",
+		"#e66533",
+		"#49e9a6",
+		"#e4b781",
+		"#49ace9",
+		"#df769b",
+		"#49d6e9",
+		"#b9acb0",
+		"#69545b",
+		"#e97749",
+		"#60ebb1",
+		"#e69533",
+		"#60b6eb",
+		"#e798b3",
+		"#60dbeb",
+		"#cbbec2"
+	],
+	"selection": "#99758255"
+}

@@ -1,16 +1,16 @@
-import { NgModule, Injectable } from '@angular/core'
-import { Theme } from 'tabby-core'
-
-@Injectable()
-class HypeTheme extends Theme {
-    name = 'Hype'
-    css = require('./theme.scss')
-    terminalBackground = '#010101'
-}
+import { NgModule } from '@angular/core'
+import { TerminalColorSchemeProvider } from 'tabby-terminal'
+import { ColorSchemes } from './colorSchemes'
 
 @NgModule({
-    providers: [
-        { provide: Theme, useClass: HypeTheme, multi: true },
-    ],
+	providers: [
+		{
+			provide: TerminalColorSchemeProvider,
+			useClass: ColorSchemes,
+			multi: true
+		}
+	]
 })
-export default class HypeThemeModule { }
+
+// eslint-disable-next-line @typescript-eslint/no-extraneous-class
+export default class NoctisColorsModule {}

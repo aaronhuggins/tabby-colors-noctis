@@ -22,12 +22,10 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
-      { test: /\.scss$/, use: ['to-string-loader', 'css-loader', 'sass-loader'] },
     ]
   },
   externals: [
     /^@angular/,
-    /^@ng-bootstrap/,
     /^tabby-/,
   ],
   mode: 'development'

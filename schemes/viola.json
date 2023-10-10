@@ -1,0 +1,25 @@
+{
+	"name": "Noctis Viola",
+	"foreground": "#bf8ef1",
+	"background": "#30243d",
+	"cursor": "#d9b3ff",
+	"colors": [
+		"#362f3d",
+		"#e66533",
+		"#49e9a6",
+		"#e4b781",
+		"#49ace9",
+		"#df769b",
+		"#49d6e9",
+		"#bfafcf",
+		"#594e65",
+		"#e97749",
+		"#60ebb1",
+		"#e69533",
+		"#60b6eb",
+		"#e798b3",
+		"#60dbeb",
+		"#ccbfd9"
+	],
+	"selection": "#8767a855"
+}

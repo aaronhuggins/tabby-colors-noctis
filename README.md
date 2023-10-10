@@ -1,20 +1,12 @@
-# Hype Theme
+# Noctis Color Schemes
 
 #### For the Tabby terminal
 
-This is a simple theme that mimicks the Hyper terminal. You can use this plugin as a base to build a theme of your own!
-
-![](http://imgur.com/download/1cEi7ef)
+This is a set of color schemes that mimic the [Noctis themes for VSCode](https://github.com/liviuschera/noctis).
 
 ---
 
 ## Hacking
-
-Tabby layout is based on Bootstrap 4, so the easiest way is to base the theme on Bootstrap as well.
-
-The styles are located in the [theme.scss](https://github.com/Eugeny/tabby-theme-hype/blob/master/src/theme.scss) file. It starts with a few Bootstrap variable overrides, then Bootstrap itself is included, and then there are some more direct style overrides.
-
-Adjust the theme name and terminal background color in [index.ts](https://github.com/Eugeny/terminus-theme-hype/blob/master/src/index.ts)
 
 Clone this repository and run:
 

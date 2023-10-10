@@ -1,0 +1,25 @@
+{
+	"name": "Noctis Sereno",
+	"foreground": "#40d4e7",
+	"background": "#062e32",
+	"cursor": "#85efff",
+	"colors": [
+		"#324a4d",
+		"#e66533",
+		"#49e9a6",
+		"#e4b781",
+		"#49ace9",
+		"#df769b",
+		"#49d6e9",
+		"#b2cacd",
+		"#47686c",
+		"#e97749",
+		"#60ebb1",
+		"#e69533",
+		"#60b6eb",
+		"#e798b3",
+		"#60dbeb",
+		"#c1d4d7"
+	],
+	"selection": "#169fb144"
+}

@@ -12,7 +12,8 @@
       "dom",
       "es2015",
       "es7"
-    ]
+    ],
+		"types": ["node", "webpack-env"]
   },
   "exclude": ["node_modules", "dist"]
 }

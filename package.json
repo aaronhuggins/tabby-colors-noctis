@@ -1,13 +1,18 @@
 {
-  "name": "tabby-theme-noctis",
+  "name": "tabby-colors-noctis",
   "version": "0.0.1",
-  "description": "Noctis inspired theme for Tabby terminal (formerly Terminus)",
-  "keywords": ["terminus-plugin", "tabby-plugin"],
+  "description": "Noctis-inspired color schemes for Tabby terminal",
+  "keywords": [
+    "terminus-plugin",
+    "tabby-plugin"
+  ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --progress --color",
+		"build": "npm run build:schemes && npm run build:webpack",
     "watch": "webpack --progress --color --watch",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+		"build:schemes": "ts-node src/buildSchemes.ts",
+		"build:webpack": "webpack --progress --color"
   },
   "files": [
     "dist"
@@ -15,27 +20,14 @@
   "author": "Aaron Huggins",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/core": "^9.1.11",
-    "tabby-core": "^1.0.187-nightly.1"
+    "@angular/core": "^15",
+    "tabby-core": "^1.0.197-nightly.1",
+    "tabby-terminal": "^1.0.197-nightly.1"
   },
+  "repository": "aaronhuggins/tabby-theme-noctis",
   "devDependencies": {
-    "@angular/common": "^9.1.11",
-    "@angular/core": "^9.1.11",
-    "@angular/forms": "^9.1.11",
-    "@types/electron": "^1.6.10",
-    "@types/webpack-env": "^1.18.0",
-    "ts-loader": "^9.4.2",
-    "bootstrap": "^4.0.0",
-    "css-loader": "^6.7.3",
-    "node-sass": "^8.0.0",
-    "raw-loader": "^4.0.2",
-    "rxjs": "^6.5.5",
-    "sass-loader": "^13.2.0",
-    "tabby-core": "^1.0.187-nightly.1",
-    "to-string-loader": "^1.2.0",
-    "typescript": "^4.9.4",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
-  },
-  "repository": "aaronhuggins/tabby-theme-noctis"
+    "@types/node": "^18.18.4",
+    "@types/webpack-env": "^1.18.2",
+    "ts-node": "^10.9.1"
+  }
 }
