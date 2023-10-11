@@ -4,6 +4,16 @@
 
 This is a set of color schemes that mimic the [Noctis themes for VSCode](https://github.com/liviuschera/noctis).
 
+## Screenshots
+
+**Noctis color scheme:**
+
+![Screenshot of Tabby showing the Noctis color scheme.](noctis_screenshot.png)
+
+**Noctis color scheme variations:**
+
+![Screenshot showing all the variations of the Noctis color scheme.](noctis_color_variations.png)
+
 ---
 
 ## Hacking
